@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-14T23:42:40 IST" name="Test Suite" finished-at="2024-01-14T23:43:08 IST" duration-ms="27675">
+    <groups>
+    </groups>
+    <test started-at="2024-01-14T23:42:40 IST" name="Test_001" finished-at="2024-01-14T23:43:08 IST" duration-ms="27675">
+      <class name="comprehensivePackage.ComprehensiveTests">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:comprehensivePackage.ComprehensiveTests@7b227d8d]" started-at="2024-01-14T23:42:37 IST" name="browserSetup" finished-at="2024-01-14T23:42:40 IST" duration-ms="2741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="navigateToUrl()[pri:1, instance:comprehensivePackage.ComprehensiveTests@7b227d8d]" started-at="2024-01-14T23:42:40 IST" name="navigateToUrl" finished-at="2024-01-14T23:42:42 IST" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUrl -->
+        <test-method signature="verifyProcessDiscoveryTabUrl()[pri:2, instance:comprehensivePackage.ComprehensiveTests@7b227d8d]" started-at="2024-01-14T23:42:42 IST" name="verifyProcessDiscoveryTabUrl" finished-at="2024-01-14T23:43:00 IST" duration-ms="18251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProcessDiscoveryTabUrl -->
+        <test-method signature="verifyRequestLiveDemoTabUrl()[pri:3, instance:comprehensivePackage.ComprehensiveTests@7b227d8d]" started-at="2024-01-14T23:43:00 IST" name="verifyRequestLiveDemoTabUrl" finished-at="2024-01-14T23:43:08 IST" duration-ms="7200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequestLiveDemoTabUrl -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:comprehensivePackage.ComprehensiveTests@7b227d8d]" started-at="2024-01-14T23:43:08 IST" name="closeBrowser" finished-at="2024-01-14T23:43:08 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- comprehensivePackage.ComprehensiveTests -->
+    </test> <!-- Test_001 -->
+  </suite> <!-- Test Suite -->
+</testng-results>

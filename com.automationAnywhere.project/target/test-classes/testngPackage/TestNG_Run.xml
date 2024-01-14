@@ -1,0 +1,7 @@
+<suite name="Test Suite">
+	<test name="Test_001">
+		<classes>
+			<class name="comprehensivePackage.ComprehensiveQuestion5"></class>
+		</classes>
+	</test>
+</suite>
