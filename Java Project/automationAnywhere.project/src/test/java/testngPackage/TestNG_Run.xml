@@ -1,0 +1,16 @@
+<suite name="AutomationAnywhereSuite">
+
+	<test name="Test_001">
+		<classes>
+			<class name="automationAnywherePackage.ReadAndWriteData"></class>
+		</classes>
+	</test>
+
+	<test name="Test_002">
+		<classes>
+			<class
+				name="automationAnywherePackage.TestngComprehensive5"></class>
+		</classes>
+	</test>
+
+</suite>
