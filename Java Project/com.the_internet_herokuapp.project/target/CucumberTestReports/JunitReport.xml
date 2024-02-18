@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.611">
+    <testcase classname="The Internet Herokuapp" name="Link validations - Internet herokuapp launch page" time="20.371">
+        <system-out><![CDATA[Given user navigates to the application.....................................passed
+And verifies the main page title: "The Internet"............................passed
+When user clicks on "A/B Testing" link......................................passed
+And verifies the text on the page: "A/B Test Variation 1 (or) A/B Test Control".passed
+Then user navigates back to homepage........................................passed
+And user clicks on "Dropdown" link..........................................passed
+Then selects the dropdown value as "Option 1"...............................passed
+And user navigates back to homepage.........................................passed
+Then user clicks on "Frames" link...........................................passed
+And verifies the below hyperlinks are presented on the frames page..........passed
+]]></system-out>
+    </testcase>
+</testsuite>

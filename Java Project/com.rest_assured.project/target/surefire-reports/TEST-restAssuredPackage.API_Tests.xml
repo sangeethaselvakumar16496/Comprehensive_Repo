@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="restAssuredPackage.API_Tests" time="5.623" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\SANGEETHA\eclipse-workspace\com.rest_assured.project\target\test-classes;C:\Users\SANGEETHA\eclipse-workspace\com.rest_assured.project\target\classes;C:\Users\SANGEETHA\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SANGEETHA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SANGEETHA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\SANGEETHA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SANGEETHA\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\SANGEETHA\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\SANGEETHA\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\SANGEETHA\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\SANGEETHA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SANGEETHA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SANGEETHA\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\SANGEETHA\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\SANGEETHA\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\SANGEETHA\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\SANGEETHA\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\SANGEETHA\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\SANGEETHA\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\SANGEETHA\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\SANGEETHA\AppData\Local\Temp\surefire6436945966236313465\surefirebooter-20240218224230177_3.jar C:\Users\SANGEETHA\AppData\Local\Temp\surefire6436945966236313465 2024-02-18T22-42-29_799-jvmRun1 surefire-20240218224230177_1tmp surefire_0-20240218224230177_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\SANGEETHA\eclipse-workspace\com.rest_assured.project\target\test-classes;C:\Users\SANGEETHA\eclipse-workspace\com.rest_assured.project\target\classes;C:\Users\SANGEETHA\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SANGEETHA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SANGEETHA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\SANGEETHA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SANGEETHA\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\SANGEETHA\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\SANGEETHA\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\SANGEETHA\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\SANGEETHA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SANGEETHA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SANGEETHA\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\SANGEETHA\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\SANGEETHA\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\SANGEETHA\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\SANGEETHA\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\SANGEETHA\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\SANGEETHA\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\SANGEETHA\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\SANGEETHA\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SANGEETHA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\SANGEETHA\eclipse-workspace\com.rest_assured.project"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\SANGEETHA\AppData\Local\Temp\surefire6436945966236313465\surefirebooter-20240218224230177_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.1+9-29"/>
+    <property name="user.name" value="SANGEETHA"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\SANGEETHA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SANGEE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.1"/>
+    <property name="user.dir" value="C:\Users\SANGEETHA\eclipse-workspace\com.rest_assured.project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Oracle21c\WINDOWS.X64_213000_db_home_1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\APP\db_home\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\SANGEETHA\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.1+9-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="germanyTest" classname="restAssuredPackage.API_Tests" time="2.11">
+    <system-out><![CDATA[C:\Users\SANGEETHA\eclipse-workspace\com.rest_assured.project\TestData\API_TestData.xlsx
+******************** Translation Name {Germany} ********************
+Status code: 200
+Translation name: germany
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="alemaniaTest" classname="restAssuredPackage.API_Tests" time="0.727">
+    <system-out><![CDATA[
+******************** Translation Name {Alemania} ********************
+Status code: 200
+Translation name: alemania
+]]></system-out>
+  </testcase>
+  <testcase name="saksamaaTest" classname="restAssuredPackage.API_Tests" time="0.688">
+    <system-out><![CDATA[
+******************** Translation Name {Saksamaa} ********************
+Status code: 200
+Translation name: Saksamaa
+
+]]></system-out>
+  </testcase>
+</testsuite>

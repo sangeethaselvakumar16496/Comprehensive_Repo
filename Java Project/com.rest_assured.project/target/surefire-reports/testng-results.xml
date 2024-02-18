@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-18T22:42:31 IST" name="Surefire suite" finished-at="2024-02-18T22:42:36 IST" duration-ms="4068">
+    <groups>
+    </groups>
+    <test started-at="2024-02-18T22:42:31 IST" name="Surefire test" finished-at="2024-02-18T22:42:36 IST" duration-ms="4068">
+      <class name="restAssuredPackage.API_Tests">
+        <test-method is-config="true" signature="configExcel()[pri:0, instance:restAssuredPackage.API_Tests@2f177a4b]" started-at="2024-02-18T22:42:31 IST" name="configExcel" finished-at="2024-02-18T22:42:31 IST" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configExcel -->
+        <test-method is-config="true" signature="setBaseURI()[pri:0, instance:restAssuredPackage.API_Tests@2f177a4b]" started-at="2024-02-18T22:42:31 IST" name="setBaseURI" finished-at="2024-02-18T22:42:32 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURI -->
+        <test-method signature="germanyTest()[pri:1, instance:restAssuredPackage.API_Tests@2f177a4b]" started-at="2024-02-18T22:42:32 IST" name="germanyTest" finished-at="2024-02-18T22:42:34 IST" duration-ms="2108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- germanyTest -->
+        <test-method signature="alemaniaTest()[pri:2, instance:restAssuredPackage.API_Tests@2f177a4b]" started-at="2024-02-18T22:42:34 IST" name="alemaniaTest" finished-at="2024-02-18T22:42:35 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alemaniaTest -->
+        <test-method signature="saksamaaTest()[pri:3, instance:restAssuredPackage.API_Tests@2f177a4b]" started-at="2024-02-18T22:42:35 IST" name="saksamaaTest" finished-at="2024-02-18T22:42:36 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saksamaaTest -->
+        <test-method is-config="true" signature="closeXlConnections()[pri:0, instance:restAssuredPackage.API_Tests@2f177a4b]" started-at="2024-02-18T22:42:36 IST" name="closeXlConnections" finished-at="2024-02-18T22:42:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeXlConnections -->
+      </class> <!-- restAssuredPackage.API_Tests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

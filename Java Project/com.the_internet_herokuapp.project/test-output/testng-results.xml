@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-18T17:22:20Z" name="TestNg Suite" finished-at="2024-02-18T17:22:41Z" duration-ms="21465">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunnerPackage.RunnerClass@29626d54]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-02-18T17:22:20Z" name="TC_001" finished-at="2024-02-18T17:22:41Z" duration-ms="21465">
+      <class name="cucumberRunnerPackage.RunnerClass">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberRunnerPackage.RunnerClass@29626d54]" started-at="2024-02-18T22:52:20Z" name="setUpClass" finished-at="2024-02-18T22:52:20Z" duration-ms="734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22825e1e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberRunnerPackage.RunnerClass@29626d54]" started-at="2024-02-18T22:52:20Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-18T22:52:41Z" duration-ms="20494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Link validations - Internet herokuapp launch page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["The Internet Herokuapp"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberRunnerPackage.RunnerClass@29626d54]" started-at="2024-02-18T22:52:41Z" name="tearDownClass" finished-at="2024-02-18T22:52:41Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberRunnerPackage.RunnerClass -->
+    </test> <!-- TC_001 -->
+  </suite> <!-- TestNg Suite -->
+</testng-results>
